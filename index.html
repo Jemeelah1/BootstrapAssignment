@@ -6,31 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div>
         <div class="bg-danger w-full m-0">
-            <ul class="d-flex flex-row bd-highlight mb-3 list-unstyled p-2">
-                <li class="ms-4 border-right"><a class="text-white text-decoration-none" href="">FAQ</a></li>
-                <li class="ms-4"><a class="text-white text-decoration-none" href="">Help Desk</a></li>
-                <li class="ms-4"><a class="text-white text-decoration-none" href="">Login</a></li>
+            <ul class="d-flex flex-row bd-highlight mb-3 list-unstyled p-1 small">
+                <li class="ms-4 border-right"><a class="text-white text-decoration-none" href="">FAQ</a> <span class="ms-3 text-white">|</span></li>
+                <li class="ms-4"><a class="text-white text-decoration-none" href="">Help Desk</a> <span class="ms-3 text-white">|</span> </li>
+                <li class="ms-4"><a class="text-white text-decoration-none" href="">Login</a> <span class="ms-3 text-white">|</span> </li>
             </ul>
             
         </div>
 
         <div class="container row">
             <div class="col-6">
-                <img src="./Images/logo-wide.png" alt="logo">
+                <img src="./Images/pressimage.png" alt="logo" height="50" width="300">
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="d-flex">
                             <div>
-                                <i class="fa fa-phone border p-2 bg-black text-white rounded"></i>
+                                <i class="fa fa-lightbulb fa-2x"></i>
                             </div>
                             <div  class="ms-4">
                                 <p class="m-0 small">CALL US TODAY</p>
@@ -53,12 +55,12 @@
             </div>           
         </div>
 
-        <div class="d-flex justify-content-around mt-4 nav-section" style="background-color:  #202c45;">
-            <ul class="d-flex list-unstyled p-2">
-                <li class=" dropdown-head">
+        <div class="d-flex justify-content-around mt-4 nav-section" style="background-color:#202c45; border-bottom:2px solid red;">
+            <ul class="d-flex list-unstyled p-3">
+                <li class="dropdown-head">
                     <div class="nav-item">
-                        <a href="" class=" text-decoration-none active ">Home</a>
-                        <i class="fa fa-angle-down"></i>
+                        <a href="" class=" text-decoration-none bg-white text-black" style="padding: .5rem 1rem .5rem 1rem; border-radius: 1.5rem;">Home
+                        <i class="fa fa-angle-down"></i></a>
                     </div>
                     <ul class="dropdown-list list-unstyled">
                         <li><a class="text-decoration-none ms-4 " href="#">Multipage Layout</a></li>
@@ -70,8 +72,7 @@
                 </li>
                 <li class="ms-4 dropdown-head">
                     <div class="nav-item">
-                        <a href="" class=" text-decoration-none active ">Features</a>
-                        <i class="fa fa-angle-down"></i>
+                        <a href="" class=" text-decoration-none active ">Features <span class="label label-default small ms-1 rounded bg-info p-1">New</span> <i class="fa fa-angle-down"></i> </a>
                     </div>
                     <ul class="dropdown-list list-unstyled">
                         <li><a class="text-decoration-none ms-4 " href="#">Multipage Layout</a></li>
@@ -83,8 +84,9 @@
                 </li>
                 <li class="ms-4 dropdown-head">
                     <div class="nav-item">
-                        <a href="" class=" text-decoration-none active ">Pages</a>
-                        <i class="fa fa-angle-down"></i>
+                        <a href="" class=" text-decoration-none active ">Pages
+                            <i class="fa fa-angle-down"></i>
+                        </a>
                     </div>
                     <ul class="dropdown-list list-unstyled">
                         <div class="d-flex justify-content-between pt-2">
@@ -96,7 +98,7 @@
                             <i class="fa fa-angle-right"></i>
                         </div>
                         <div class="d-flex justify-content-between pt-2">
-                            <li><a class="text-decoration-none ms-4 " href="#">Profile</a></li>
+                            <li><a class="text-decoration-none ms-4 " href="./profile.html">Profile</a></li>
                             <i class="fa fa-angle-right"></i>
                         </div>
                         <div class="d-flex justify-content-between pt-2">
@@ -115,8 +117,8 @@
                 </li>
                 <li class="ms-4 dropdown-head">
                     <div class="nav-item">
-                        <a href="" class=" text-decoration-none active ">Portfolio</a>
-                        <i class="fa fa-angle-down"></i>
+                        <a href="" class=" text-decoration-none active ">Portfolio
+                        <i class="fa fa-angle-down"></i></a>
                     </div>
                     <ul class="dropdown-list list-unstyled">
                         <li><a class="text-decoration-none ms-4 " href="#">Multipage Layout</a></li>
@@ -128,8 +130,8 @@
                 </li>
                 <li class="ms-4 dropdown-head">
                     <div class="nav-item">
-                        <a href="" class=" text-decoration-none active ">Courses</a>
-                        <i class="fa fa-angle-down"></i>
+                        <a href="" class=" text-decoration-none active ">Courses
+                        <i class="fa fa-angle-down"></i></a>
                     </div>
                     <ul class="dropdown-list list-unstyled">
                         <li><a class="text-decoration-none ms-4 " href="#">Multipage Layout</a></li>
@@ -141,8 +143,8 @@
                 </li>
                 <li class="ms-4 dropdown-head">
                     <div class="nav-item">
-                        <a href="" class=" text-decoration-none active ">Teachers</a>
-                        <i class="fa fa-angle-down"></i>
+                        <a href="" class=" text-decoration-none active ">Teachers
+                        <i class="fa fa-angle-down"></i></a>
                     </div>
                     <ul class="dropdown-list list-unstyled">
                         <li><a class="text-decoration-none ms-4 " href="#">Multipage Layout</a></li>
@@ -154,8 +156,8 @@
                 </li>
                 <li class="ms-4 dropdown-head">
                     <div class="nav-item">
-                        <a href="" class=" text-decoration-none active ">Blog</a>
-                        <i class="fa fa-angle-down"></i>
+                        <a href="" class=" text-decoration-none active ">Blog
+                        <i class="fa fa-angle-down"></i></a>
                     </div>
                     <ul class="dropdown-list list-unstyled">
                         <li><a class="text-decoration-none ms-4 " href="#">Multipage Layout</a></li>
@@ -167,8 +169,8 @@
                 </li>
                 <li class="ms-4 dropdown-head">
                     <div class="nav-item">
-                        <a href="" class=" text-decoration-none active ">Shortcodes</a>
-                        <i class="fa fa-angle-down"></i>
+                        <a href="" class=" text-decoration-none active ">Shortcodes
+                        <i class="fa fa-angle-down"></i></a>
                     </div>
                     <ul class="dropdown-list list-unstyled">
                         <li><a class="text-decoration-none ms-4 " href="#">Multipage Layout</a></li>
@@ -180,14 +182,54 @@
                 </li>
             </ul>
 
-            <div class="bg-danger text-white p-2">
+            <div class="bg-danger text-white p-2" style="display: flex ; align-items: center;">
                 <a href="" class="text-decoration-none text-white">Book Now</a>
             </div>
         </div>
 
-        <div>
-            <img src="./Images/huh!.jpg" alt="banner-image" width="100%">
+            <!-- -------------CAROUSEL --------------------------- -->
+        <div style="position: relative; " class="slideshow-container">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Images/students image.jpg" alt="Los Angeles" class="d-block" height="600px" style="width:100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/pexels-jpg.jpeg" alt="Chicago" class="d-block" height="600px" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/images2.jpg" alt="New York" class="d-block" height="600px" style="width:100%">
+                    </div>
+                </div>
+                
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>  
+            </div>
+            <div class="text-white w-50" style="position: absolute; top:30%;left: 10%; z-index: 1000;">
+                <h1 style="font-size: 5rem; font-weight: 400;">EDUCATION</h1>
+                <p class="p-2" style="font-size: 1.5rem; background-image: linear-gradient(rgba(0,0,0,.5), rgba(18, 17, 48, 0.5)); border-left: 2px solid red;" >EDUCATION FOR EVERYONE</p>
+                <p >We provide always our best services for our client and always try to achieve our client's trust and satisfaction</p>
+                <div>
+                    <button class="text-white p-2" style="background-color: #202c45; border: none; border-left: 3px solid red;" >View Details</button>
+                </div>
+            </div>
         </div>
+  
+  
 
         <div class="container pb-4">
             <div class="row">
@@ -314,7 +356,7 @@
         <!-- -----------------COURSES------------------------------ -->
         <div style="background-color: whitesmoke; " class="pb-4">
             <div class= "container pt-4">
-                <h2><span class="our">OUR</span><span style="color: red;"> COURSES</span></h2>
+                <h2>OUR <span style="color: red;"> COURSES</span></h2>
                 <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         
             </div>
@@ -322,10 +364,10 @@
                 <div class="d-flex">
                     <div class="w-25 ms-3 bg-white price-section pb-2">
                         <div class="price">
-                            <img width="100%" src="./Images/program.jpg" alt="image">
+                            <img width="100%" src="./Images/accounting technologies.jpeg" alt="image">
                             <p>$125</p>
                         </div>
-                        <div class="course-tech">
+                        <div class="p-2">
                             <p class="m-0"><span>Accounting</span> Technology</p>
                             <div style="border: 1px solid  #f2184f; height: .1rem; width: 3rem; background-color:  #f2184f; ">
                             </div>
@@ -340,11 +382,11 @@
                     </div>
                     <div class="w-25 ms-3 price-section bg-white pb-2">
                         <div class="price">
-                            <img width="100%" src="./Images/js-icon.jpg" alt="image">
+                            <img width="100%" src="./Images/modern tech.jpeg" alt="image">
                             <p>$125</p>
                         </div>
-                        <div class="course-tech"">
-                            <p><span>Accounting</span> Technology</p>
+                        <div class="p-2">
+                            <p><span>Modern</span> Technologies</p>
                             <div style="border: 1px solid  #f2184f; height: .1rem; width: 3rem; background-color:  #f2184f; ">
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit
@@ -357,11 +399,11 @@
                     </div>
                     <div class="w-25 ms-3 price-section bg-white pb-2">
                         <div class="price">
-                            <img width="100%" src="./Images/node-icon.jpg" alt="image">
+                            <img width="100%" src="./Images/modern lang..jpeg" alt="image">
                             <p>$125</p>
                         </div>
-                        <div class="course-tech"">
-                            <p><span>Accounting</span> Technology</p>
+                        <div class="p-2">
+                            <p><span>Modern</span> Languages</p>
                             <div style="border: 1px solid  #f2184f; height: .1rem; width: 3rem; background-color:  #f2184f; ">
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit
@@ -374,11 +416,10 @@
                     </div>
                     <div class="w-25 ms-3 bg-white pb-2 price-section">
                         <div class="price">
-                            <img width="100%" src="./Images/ps-icon.jpg" alt="image">
+                            <img width="100%" src="./Images/computer tech..jpeg" alt="image">
                             <p>$125</p>
-                        </div>
-                        <div class="course-tech"">
-                            <p><span>Accounting</span> Technology</p>
+                        </div class="p-2">
+                            <p><span>Computer</span> Technologies</p>
                             <div style="border: 1px solid  #f2184f; height: .1rem; width: 3rem; background-color:  #f2184f; ">
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit
@@ -391,14 +432,15 @@
                     </div>
                 </div>
 
+                <div class="container">
                 <div class="d-flex mt-4">
                     <div class="w-25 ms-3 bg-white pb-2 price-section p-0">
                         <div class="price">
-                            <img width="100%" src="./Images/ps-icon.jpg" alt="image">
+                            <img width="100%" src="./Images/chemical engi..jpeg" alt="image">
                             <p>$125</p>
                         </div>
                         <div class="p-2">
-                            <p><span>Accounting</span> Technology</p>
+                            <p><span>Chemical</span>Engineering</p>
                             <div style="border: 1px solid  #f2184f; height: .1rem; width: 3rem; background-color:  #f2184f; ">
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit
@@ -411,11 +453,11 @@
                     </div>
                     <div class="w-25 ms-3 bg-white pb-2 p-0 price-section">
                         <div class="price">
-                            <img width="100%" src="./Images/html-icon.jpg" alt="image">
+                            <img width="100%" src="./Images/deve.studies.jpeg" alt="image">
                             <p>$125</p>
                         </div>
                         <div class="p-2">
-                            <p><span>Accounting</span> Technology</p>
+                            <p><span>Development</span>Studies</p>
                             <div style="border: 1px solid  #f2184f; height: .1rem; width: 3rem; background-color:  #f2184f; ">
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit
@@ -429,11 +471,11 @@
                 
                     <div class="w-25 ms-3 bg-white pb-2 p-0 price-section">
                         <div class="price">
-                            <img width="100%" src="./Images/js-icon.jpg" alt="image">
+                            <img width="100%" src="./Images/software engi..jpeg" alt="image">
                             <p>$125</p>
                         </div>
                         <div class="p-2">
-                            <p><span>Accounting</span> Technology</p>
+                            <p><span>Software</span>Engineering</p>
                             <div style="border: 1px solid  #f2184f; height: .1rem; width: 3rem; background-color:  #f2184f; ">
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit
@@ -446,11 +488,11 @@
                     </div>
                     <div class="w-25 ms-3 bg-white pb-2 p-0 price-section">
                         <div class="price">
-                            <img width="100%" src="./Images/program.jpg" alt="image">
+                            <img width="100%" src="./Images/electrical.jpeg" alt="image">
                             <p>$125</p>
                         </div>
                         <div class="p-2">
-                            <p><span>Accounting</span> Technology</p>
+                            <p><span>Electrical &</span> Electronic</p>
                             <div style="border: 1px solid  #f2184f; height: .1rem; width: 3rem; background-color:  #f2184f; ">
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit
@@ -464,11 +506,11 @@
                 </div>
             </div>
         </div>
-
+        <!-- ---------WHY CHOOSE US-------------------------- -->
         <div class="container mt-4 pb-4">
             <div class="d-flex mt-4 justify-content-between">
                 <div class="w-50 mt-4">
-                    <img src="./Images/people.jpg" alt="people">
+                    <img src="./Images/students.jpeg" alt="people">
                 </div>
 
                 <div class="mt-4 ms-4">
@@ -504,25 +546,27 @@
             </div>
         </div>
         
+
+        <!-- ---------------------------OUR GALLERY---------------------------------- -->
         <div  style="background-color: whitesmoke;">
             <div class="container">
                 <div class= "courses-heading" style="padding-left: 2rem; padding-top: 4rem;">
-                    <h2><span class="our">OUR</span><span style="color: red;">GALLERY</span></h2>
+                    <h2>OUR <span style="color: red;">GALLERY</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
                     <div class="row">
-                        <img class="col-md-3" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3 mt-4" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3 mt-4" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3 mt-4" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3 mt-4" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3 mt-4" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3 mt-4" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3 mt-4" src="./Images/huh!.jpg" alt="">
-                        <img class="col-md-3 mt-4" src="./Images/huh!.jpg" alt="">
+                        <img class="col-md-3" src="./Images/gallery1.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3" src="./Images/gallery2.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3" src="./Images/gallery1.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3" src="./Images/gallery2.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3 mt-4" src="./Images/gallery1.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3 mt-4" src="./Images/gallery2.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3 mt-4" src="./Images/gallery1.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3 mt-4" src="./Images/gallery2.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3 mt-4" src="./Images/gallery1.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3 mt-4" src="./Images/gallery2.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3 mt-4" src="./Images/gallery1.jpg" alt="" height="250" width="300">
+                        <img class="col-md-3 mt-4" src="./Images/gallery2.jpg" alt="" height="250" width="300">
                     </div>
             
                 </div>
