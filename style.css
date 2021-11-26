@@ -3,7 +3,7 @@
 }
 .dropdown-list {
     position: absolute;
-    top:5rem;
+    top:3rem;
     display:none;
     background: white;
     font-size: 0.9rem;
@@ -11,14 +11,50 @@
     width:15%;
     z-index:1000;
 }
+.teacher{
+    padding-top: 2rem;
+}
 
 .dropdown-inner-head {
     position:relative;
 }
 
+.middle{
+    background: #202c45;
+    color: white;
+}
+.awards{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.awards div{
+    margin-right: 5rem;
+    padding: 2rem;
+}
+
+.awards i {
+ color: red;
+}
+
 .dropdown-inner-head:hover .dropdown-inner {
     display:block;
 }
+
+.map-container  {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
 
 .dropdown-inner {
     position: absolute;
@@ -78,14 +114,14 @@
 }
 
 .about-banner {
-    background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)), url("./Images/huh!.jpg");
+    background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)), url("./images/gallery-7.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 
 }
 
 .stats, .footer-section {
-    background-image:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.9)), url("./Images/huh!.jpg");
+    background-image:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.9)), url("./images/images2.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
